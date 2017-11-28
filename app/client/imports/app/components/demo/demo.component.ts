@@ -18,7 +18,6 @@ export class DemoComponent extends MeteorComponent implements OnInit {
     constructor(private demoDataService:DemoDataService,
                 public translate:TranslateService) {
         super();
-        this.greeting = Constants.EMPTY_STRING;
     }
 
     ngOnInit() {

@@ -3,9 +3,8 @@ import {NavController} from 'ionic-angular';
 import {MeteorComponent} from 'angular2-meteor';
 import {TranslateService} from "@ngx-translate/core";
 
-// TODO change template path
-import template from './newpage.html';
-//TODO change selector
+// TODO change selector
+// TODO change templateUrl
 @Component({
     selector: "page-newpage",
     templateUrl: "newpage.html"
