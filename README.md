@@ -1,26 +1,26 @@
 
-#Framework Versions
-###Meteor v1.6
-###Ionic v3.9.2
-###Angular v5.0.3
+# Framework Versions
+### Meteor v1.6
+### Ionic v3.9.2
+### Angular v5.0.3
 
-#Screenshots
-###Android
+# Screenshots
+### Android
 ![home page top](screenshots/android/home-page-top.png) ![home page bottom](screenshots/android/home-page-bottom.png) ![language select](screenshots/android/language-select.png) ![ion menu](screenshots/android/ion-menu.png)
-###iOS
+### iOS
 ![home page top](screenshots/ios/home-page-top.png) ![home page bottom](screenshots/ios/home-page-bottom.png) ![language select](screenshots/ios/language-select.png) ![ion menu](screenshots/ios/ion-menu.png)
 
-#References
+# References
 This repository was created using the following resources. The base of this repo is a clone of [angular2-meteor-boilerplate](https://github.com/Urigo/angular2-meteor-base).
-###[Urigo/Angular2-Meteor Boilerplate](https://github.com/Urigo/angular2-meteor-base)
-###[driftyco/ionic2-starter-blank](https://github.com/driftyco/ionic2-starter-blank/tree/master/src/app)
-###[driftyco/ionic2-app-base](https://github.com/driftyco/ionic2-app-base) 
-###[ocombe/ng2-translate](https://github.com/ocombe/ng2-translate) && https://ionicframework.com/docs/v2/resources/ng2-translate/
+### [Urigo/Angular2-Meteor Boilerplate](https://github.com/Urigo/angular2-meteor-base)
+### [driftyco/ionic2-starter-blank](https://github.com/driftyco/ionic2-starter-blank/tree/master/src/app)
+### [driftyco/ionic2-app-base](https://github.com/driftyco/ionic2-app-base)
+### [ocombe/ng2-translate](https://github.com/ocombe/ng2-translate) && https://ionicframework.com/docs/v2/resources/ng2-translate/
 
-###[Ionic2 changelog](https://github.com/driftyco/ionic/blob/master/CHANGELOG.md)
-###Previous version of this repo [Ionic2-Meteor1.3-Starter](https://github.com/mjwheatley/Ionic2-Meteor1.3-Starter)
+###[ Ionic2 changelog](https://github.com/driftyco/ionic/blob/master/CHANGELOG.md)
+### Previous version of this repo [Ionic2-Meteor1.3-Starter](https://github.com/mjwheatley/Ionic2-Meteor1.3-Starter)
 
-#Getting Started
+# Getting Started
 ```
 git clone https://github.com/mjwheatley/ionic2-meteor-boilerplate.git
 
@@ -49,20 +49,20 @@ this.appName = Meteor.settings.public.appName;
 
 If you use `meteor run` to start the application you must also include `--settings ../config/development/settings.json` to get the application to run correctly.
 
-#SASS
+# SASS
 ***Do not put SCSS files in the `app` directory***
-##Put all SCSS files in the `theme` directory.  
+## Put all SCSS files in the `theme` directory.
 ***For ease of reference, you should mirror your `app/client/imports/app` folder tree.***
 
-##Import all your project SCSS in `theme/app.core.scss`
+## Import all your project SCSS in `theme/app.core.scss`
 
-###This project uses node-sass to compile SCSS files.
-####Ionic2 SCSS files from the ionic-angular node module are added to the path for node-sass.
+### This project uses node-sass to compile SCSS files.
+#### Ionic2 SCSS files from the ionic-angular node module are added to the path for node-sass.
 The `start` script will output platform specific css bundles into the `app/public/stylesheets/` directory and copy ionic fonts to `app/public/fonts/` .
 The `app/client/index.html` file includes links to these stylesheets.
 The method `setStyle()` in `app/client/imports/app/app.component.ts` will set only one of the stylesheets to be active based on the platform style class that Ionic adds to the `ion-app` tag.
 
-#Mobile platforms
+# Mobile platforms
 To run this application on a mobile device you will need to edit the package.json file.
 Change the `meteor` script to the following:
 
@@ -76,7 +76,7 @@ Then start the application the same as usual.
 npm start
 ```
 
-##Multi Language Support
+## Multi Language Support
 This boilerplate comes with support for Internationalization using the ng2-translate node module.
 * Add additional language files to `app/public/i18n/`.
 * This boilerplate includes a custom component, ***LanguageSelectComponent*** (`app/client/imports/app/components/language-select/`), that you can edit to add support for additional languages.
@@ -96,7 +96,7 @@ inputs: [{
 }]
 ```
 
-#Creating new pages/components
+# Creating new pages/components
 This boilerplate contains a ***template component*** that can be used to create a new page or component.
 * Copy `app/client/imports/app/pages/newpage/` and rename the directory and files.
 * Complete the TODOs listed in newpage.ts
