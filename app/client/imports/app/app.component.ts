@@ -5,7 +5,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
 import {Constants} from "../../../both/Constants";
 import {HomePage} from "./pages/home/home";
-import {TranslateService} from "ng2-translate";
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
     selector: "ion-app",

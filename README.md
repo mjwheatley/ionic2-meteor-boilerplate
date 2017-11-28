@@ -1,8 +1,8 @@
 
 #Framework Versions
 ###Meteor v1.6
-###Ionic2 v3.8.0
-###Angular2 v4.4.6
+###Ionic v3.9.2
+###Angular v5.0.3
 
 #Screenshots
 ###Android
