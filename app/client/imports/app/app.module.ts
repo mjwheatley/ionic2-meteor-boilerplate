@@ -1,5 +1,5 @@
 import {NgModule, ErrorHandler} from "@angular/core";
-import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular';
+import {IonicApp, IonicModule, IonicErrorHandler} from 'ionic-angular/es2015';
 import {Storage} from '@ionic/storage';
 import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";

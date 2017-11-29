@@ -1,5 +1,5 @@
 import {Component, NgZone} from '@angular/core';
-import {AlertController} from 'ionic-angular';
+import {AlertController} from 'ionic-angular/es2015';
 import {MeteorComponent} from 'angular2-meteor';
 import {TranslateService} from "@ngx-translate/core";
 import {Constants} from "../../../../../both/Constants";
@@ -36,7 +36,7 @@ export class LanguageSelectComponent extends MeteorComponent {
         });
     }
 
-    private selectLanguage() {
+    public selectLanguage() {
         var self = this;
         let alert = self.alertCtrl.create({
             title: self.translate.instant("language-select.header"),

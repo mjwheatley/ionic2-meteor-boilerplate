@@ -27,7 +27,6 @@
     "chai": "4.1.2",
     "chai-spies": "0.7.1",
     "copyfiles": "1.2.0",
-    "meteor-typings": "^1.4.1",
     "nodemon": "1.12.1",
     "node-sass": "4.7.2",
     "npm-run-all": "4.1.2",

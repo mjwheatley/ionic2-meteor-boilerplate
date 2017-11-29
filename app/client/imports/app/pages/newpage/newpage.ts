@@ -1,5 +1,5 @@
 import {Component, OnInit, NgZone} from '@angular/core';
-import {NavController} from 'ionic-angular';
+import {NavController} from 'ionic-angular/es2015';
 import {MeteorComponent} from 'angular2-meteor';
 import {TranslateService} from "@ngx-translate/core";
 
